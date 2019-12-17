@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>LoRa Transmission</title>
+    </head>
+    <body>
+        <h1>Autonomous Animal Monitoring System</h1>
+        <p>A simple HTTP server t keep track of the LoRa transmissions</p>
+        <hr>
+        <h3>Current packet number: %d</h3>
+        <table align="center" style="width:50%">
+            <tr>
+                <th>Class Name</th>
+                <th>Instances</th>
+            </tr>
+
+
+
+    </body>
+</html>
+self.wfile.write(b'<html><head><title>LoRa Transmission</title>')
+            self.wfile.write(b'<style>')
+            self.wfile.write(b'table,th,td {border: 1px solid black;}')
+            self.wfile.write(b'</style>')
+            self.wfile.write(b'<meta http-equiv="refresh" content="5" /></head>')
+            self.wfile.write(b'<body style="background-color:coral;text-align:center;"><h1 style="margin:15px">Autonomous Animal Monitoring System</h1>')
+            self.wfile.write(b'<p style="text-align:center;">A simple HTTP server to keep track of the LoRa tranmission.</p>')
+            self.wfile.write(b'<hr>')
+            self.wfile.write(b'')
+            self.wfile.write(b'<h3>Current packet number: %d</h3>' % (pktnum+thous))
+            self.wfile.write(b'')
+            for k,v in seenall:
+            <tr><td>%b</td><td>%d</td></tr>' % (bytes(k, "utf-8"), v))
+            self.wfile.write(b'</table>')
+            self.wfile.write(b'<div class="row">')
+            highconf = []
+            other = []
+            for i in range(len(classids)):
+                if confs[i] > 40:
+                    highconf.append(i)
+                else:
+                    other.append(i)
+            self.wfile.write(b'<div style="float:left;width:50%;"><h2>Seen with high confidence</h2>')
+            for i in highconf:
+                classname = labels[classids[i]]
+                if classname in seenall:
+                    seenall[classname] += 1
+                else:
+                    seenall[classname] = 1
+                self.wfile.write(b'<h4>%b: %d</h4>\%' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
+            self.wfile.write(b'</div>')
+            self.wfile.write(b'<div style="float:left;width:50%"><h2>Seen with low confidence</h2>')
+            for i in other:
+                self.wfile.write(b'<h4>%b: %d</h4>\%' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
+            self.wfile.write(b'</div></div>')
+            self.wfile.write(b'</body></html>')

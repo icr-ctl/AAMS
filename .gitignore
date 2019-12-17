@@ -1,0 +1,10 @@
+*.jpg
+*.JPG
+*.Jpg
+*.tflite
+*.pb
+*.meta
+*.ckpt.*
+*.tar.gz
+*.tar
+*.config
