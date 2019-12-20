@@ -1,0 +1,459 @@
+******************************************************************
+**************** weight file: megalabels_AB.weights **************
+************************** thresh: 0.01 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 132, unique_truth_count = 81  
+ rank = 0 of ranks = 132 
+ rank = 100 of ranks = 132 
+class_id = 0, name = polar_bear, ap = 87.34%   	 (TP = 72, FP = 33) 
+
+ for conf_thresh = 0.01, precision = 0.69, recall = 0.89, F1-score = 0.77 
+ for conf_thresh = 0.01, TP = 72, FP = 33, FN = 9, average IoU = 53.90 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.873357, or 87.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+**************** weight file: megalabels_AB.weights **************
+************************** thresh: 0.25 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 132, unique_truth_count = 81  
+ rank = 0 of ranks = 132 
+ rank = 100 of ranks = 132 
+class_id = 0, name = polar_bear, ap = 87.34%   	 (TP = 68, FP = 4) 
+
+ for conf_thresh = 0.25, precision = 0.94, recall = 0.84, F1-score = 0.89 
+ for conf_thresh = 0.25, TP = 68, FP = 4, FN = 13, average IoU = 75.14 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.873357, or 87.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+**************** weight file: megalabels_AB.weights **************
+************************** thresh: 0.50 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 132, unique_truth_count = 81  
+ rank = 0 of ranks = 132 
+ rank = 100 of ranks = 132 
+class_id = 0, name = polar_bear, ap = 87.34%   	 (TP = 65, FP = 2) 
+
+ for conf_thresh = 0.50, precision = 0.97, recall = 0.80, F1-score = 0.88 
+ for conf_thresh = 0.50, TP = 65, FP = 2, FN = 16, average IoU = 77.39 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.873357, or 87.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+**************** weight file: megalabels_AB.weights **************
+************************** thresh: 0.60 **************************
+****************************************************************** 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 132, unique_truth_count = 81  
+ rank = 0 of ranks = 132 
+ rank = 100 of ranks = 132 
+class_id = 0, name = polar_bear, ap = 87.34%   	 (TP = 64, FP = 1) 
+
+ for conf_thresh = 0.60, precision = 0.98, recall = 0.79, F1-score = 0.88 
+ for conf_thresh = 0.60, TP = 64, FP = 1, FN = 17, average IoU = 78.48 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.873357, or 87.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+**************** weight file: megalabels_AB.weights **************
+************************** thresh: 0.75 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 132, unique_truth_count = 81  
+ rank = 0 of ranks = 132 
+ rank = 100 of ranks = 132 
+class_id = 0, name = polar_bear, ap = 87.34%   	 (TP = 61, FP = 0) 
+
+ for conf_thresh = 0.75, precision = 1.00, recall = 0.75, F1-score = 0.86 
+ for conf_thresh = 0.75, TP = 61, FP = 0, FN = 20, average IoU = 80.10 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.873357, or 87.34 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+************** weight file: pb_openimages_AB.weights *************
+************************** thresh: 0.01 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 79, FP = 21) 
+
+ for conf_thresh = 0.01, precision = 0.79, recall = 0.98, F1-score = 0.87 
+ for conf_thresh = 0.01, TP = 79, FP = 21, FN = 2, average IoU = 61.04 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+************** weight file: pb_openimages_AB.weights *************
+************************** thresh: 0.25 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 74, FP = 8) 
+
+ for conf_thresh = 0.25, precision = 0.90, recall = 0.91, F1-score = 0.91 
+ for conf_thresh = 0.25, TP = 74, FP = 8, FN = 7, average IoU = 70.11 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+************** weight file: pb_openimages_AB.weights *************
+************************** thresh: 0.50 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 70, FP = 5) 
+
+ for conf_thresh = 0.50, precision = 0.93, recall = 0.86, F1-score = 0.90 
+ for conf_thresh = 0.50, TP = 70, FP = 5, FN = 11, average IoU = 72.96 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+************** weight file: pb_openimages_AB.weights *************
+************************** thresh: 0.60 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 65, FP = 5) 
+
+ for conf_thresh = 0.60, precision = 0.93, recall = 0.80, F1-score = 0.86 
+ for conf_thresh = 0.60, TP = 65, FP = 5, FN = 16, average IoU = 73.11 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+************** weight file: pb_openimages_AB.weights *************
+************************** thresh: 0.75 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 57, FP = 5) 
+
+ for conf_thresh = 0.75, precision = 0.92, recall = 0.70, F1-score = 0.80 
+ for conf_thresh = 0.75, TP = 57, FP = 5, FN = 24, average IoU = 73.49 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+********* weight file: AB_probably_openimages_pb.weights *********
+************************** thresh: 0.01 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 147, unique_truth_count = 81  
+ rank = 0 of ranks = 147 
+ rank = 100 of ranks = 147 
+class_id = 0, name = polar_bear, ap = 94.83%   	 (TP = 79, FP = 47) 
+
+ for conf_thresh = 0.01, precision = 0.63, recall = 0.98, F1-score = 0.76 
+ for conf_thresh = 0.01, TP = 79, FP = 47, FN = 2, average IoU = 50.89 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.948268, or 94.83 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+********* weight file: AB_probably_openimages_pb.weights *********
+************************** thresh: 0.25 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 147, unique_truth_count = 81  
+ rank = 0 of ranks = 147 
+ rank = 100 of ranks = 147 
+class_id = 0, name = polar_bear, ap = 94.83%   	 (TP = 78, FP = 10) 
+
+ for conf_thresh = 0.25, precision = 0.89, recall = 0.96, F1-score = 0.92 
+ for conf_thresh = 0.25, TP = 78, FP = 10, FN = 3, average IoU = 72.27 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.948268, or 94.83 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+********* weight file: AB_probably_openimages_pb.weights *********
+************************** thresh: 0.50 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 147, unique_truth_count = 81  
+ rank = 0 of ranks = 147 
+ rank = 100 of ranks = 147 
+class_id = 0, name = polar_bear, ap = 94.83%   	 (TP = 77, FP = 6) 
+
+ for conf_thresh = 0.50, precision = 0.93, recall = 0.95, F1-score = 0.94 
+ for conf_thresh = 0.50, TP = 77, FP = 6, FN = 4, average IoU = 75.79 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.948268, or 94.83 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+********* weight file: AB_probably_openimages_pb.weights *********
+************************** thresh: 0.60 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 147, unique_truth_count = 81  
+ rank = 0 of ranks = 147 
+ rank = 100 of ranks = 147 
+class_id = 0, name = polar_bear, ap = 94.83%   	 (TP = 77, FP = 6) 
+
+ for conf_thresh = 0.60, precision = 0.93, recall = 0.95, F1-score = 0.94 
+ for conf_thresh = 0.60, TP = 77, FP = 6, FN = 4, average IoU = 75.79 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.948268, or 94.83 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+********* weight file: AB_probably_openimages_pb.weights *********
+************************** thresh: 0.75 **************************
+****************************************************************** 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 147, unique_truth_count = 81  
+ rank = 0 of ranks = 147 
+ rank = 100 of ranks = 147 
+class_id = 0, name = polar_bear, ap = 94.83%   	 (TP = 72, FP = 4) 
+
+ for conf_thresh = 0.75, precision = 0.95, recall = 0.89, F1-score = 0.92 
+ for conf_thresh = 0.75, TP = 72, FP = 4, FN = 9, average IoU = 77.83 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.948268, or 94.83 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+***************** weight file: clean_oi.weights ******************
+************************** thresh: 0.01 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 79, FP = 21) 
+
+ for conf_thresh = 0.01, precision = 0.79, recall = 0.98, F1-score = 0.87 
+ for conf_thresh = 0.01, TP = 79, FP = 21, FN = 2, average IoU = 61.04 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+***************** weight file: clean_oi.weights ******************
+************************** thresh: 0.25 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 74, FP = 8) 
+
+ for conf_thresh = 0.25, precision = 0.90, recall = 0.91, F1-score = 0.91 
+ for conf_thresh = 0.25, TP = 74, FP = 8, FN = 7, average IoU = 70.11 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+***************** weight file: clean_oi.weights ******************
+************************** thresh: 0.50 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 70, FP = 5) 
+
+ for conf_thresh = 0.50, precision = 0.93, recall = 0.86, F1-score = 0.90 
+ for conf_thresh = 0.50, TP = 70, FP = 5, FN = 11, average IoU = 72.96 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+***************** weight file: clean_oi.weights ******************
+************************** thresh: 0.60 **************************
+******************************************************************
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 65, FP = 5) 
+
+ for conf_thresh = 0.60, precision = 0.93, recall = 0.80, F1-score = 0.86 
+ for conf_thresh = 0.60, TP = 65, FP = 5, FN = 16, average IoU = 73.11 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+******************************************************************
+***************** weight file: clean_oi.weights ******************
+************************** thresh: 0.75 **************************
+****************************************************************** 
+
+ calculation mAP (mean average precision)...
+
+ detections_count = 109, unique_truth_count = 81  
+ rank = 0 of ranks = 109 
+ rank = 100 of ranks = 109 
+class_id = 0, name = polar_bear, ap = 92.66%   	 (TP = 57, FP = 5) 
+
+ for conf_thresh = 0.75, precision = 0.92, recall = 0.70, F1-score = 0.80 
+ for conf_thresh = 0.75, TP = 57, FP = 5, FN = 24, average IoU = 73.49 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.926602, or 92.66 % 
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset

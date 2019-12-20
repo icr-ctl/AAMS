@@ -1,0 +1,300 @@
+File name: megalabels_AB.weights
+threshold: 0.01
+
+AB calculated precision: 0.69
+AB calculated recall: 0.89
+AB calculated avg_IoU: 53.90
+AB calculated mAP: 0.873357
+AB calculate F1-score: 0.77
+
+Truth: 81 detections
+TP: 72	FP: 33	FN: 9
+My calculated precision: 0.6857142857142857
+My calculated recall: 0.8888888888888888
+My F1 score: 0.7741935483870968
+******************************************************
+File name: megalabels_AB.weights
+threshold: 0.25
+
+AB calculated precision: 0.94
+AB calculated recall: 0.84
+AB calculated avg_IoU: 75.14
+AB calculated mAP: 0.873357
+AB calculate F1-score: 0.89
+
+Truth: 81 detections
+TP: 68	FP: 4	FN: 13
+My calculated precision: 0.9444444444444444
+My calculated recall: 0.8395061728395061
+My F1 score: 0.888888888888889
+******************************************************
+File name: megalabels_AB.weights
+threshold: 0.50
+
+AB calculated precision: 0.97
+AB calculated recall: 0.80
+AB calculated avg_IoU: 77.39
+AB calculated mAP: 0.873357
+AB calculate F1-score: 0.88
+
+Truth: 81 detections
+TP: 65	FP: 2	FN: 16
+My calculated precision: 0.9701492537313433
+My calculated recall: 0.8024691358024691
+My F1 score: 0.8783783783783784
+******************************************************
+File name: megalabels_AB.weights
+threshold: 0.60
+
+AB calculated precision: 0.98
+AB calculated recall: 0.79
+AB calculated avg_IoU: 78.48
+AB calculated mAP: 0.873357
+AB calculate F1-score: 0.88
+
+Truth: 81 detections
+TP: 64	FP: 1	FN: 17
+My calculated precision: 0.9846153846153847
+My calculated recall: 0.7901234567901234
+My F1 score: 0.8767123287671232
+******************************************************
+File name: megalabels_AB.weights
+threshold: 0.75
+
+AB calculated precision: 1.00
+AB calculated recall: 0.75
+AB calculated avg_IoU: 80.10
+AB calculated mAP: 0.873357
+AB calculate F1-score: 0.86
+
+Truth: 81 detections
+TP: 61	FP: 0	FN: 20
+My calculated precision: 1.0
+My calculated recall: 0.7530864197530864
+My F1 score: 0.8591549295774648
+******************************************************
+File name: pb_openimages_AB.weights
+threshold: 0.01
+
+AB calculated precision: 0.79
+AB calculated recall: 0.98
+AB calculated avg_IoU: 61.04
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.87
+
+Truth: 81 detections
+TP: 79	FP: 21	FN: 2
+My calculated precision: 0.79
+My calculated recall: 0.9753086419753086
+My F1 score: 0.8729281767955802
+******************************************************
+File name: pb_openimages_AB.weights
+threshold: 0.25
+
+AB calculated precision: 0.90
+AB calculated recall: 0.91
+AB calculated avg_IoU: 70.11
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.91
+
+Truth: 81 detections
+TP: 74	FP: 8	FN: 7
+My calculated precision: 0.9024390243902439
+My calculated recall: 0.9135802469135802
+My F1 score: 0.9079754601226994
+******************************************************
+File name: pb_openimages_AB.weights
+threshold: 0.50
+
+AB calculated precision: 0.93
+AB calculated recall: 0.86
+AB calculated avg_IoU: 72.96
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.90
+
+Truth: 81 detections
+TP: 70	FP: 5	FN: 11
+My calculated precision: 0.9333333333333333
+My calculated recall: 0.8641975308641975
+My F1 score: 0.8974358974358974
+******************************************************
+File name: pb_openimages_AB.weights
+threshold: 0.60
+
+AB calculated precision: 0.93
+AB calculated recall: 0.80
+AB calculated avg_IoU: 73.11
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.86
+
+Truth: 81 detections
+TP: 65	FP: 5	FN: 16
+My calculated precision: 0.9285714285714286
+My calculated recall: 0.8024691358024691
+My F1 score: 0.8609271523178809
+******************************************************
+File name: pb_openimages_AB.weights
+threshold: 0.75
+
+AB calculated precision: 0.92
+AB calculated recall: 0.70
+AB calculated avg_IoU: 73.49
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.80
+
+Truth: 81 detections
+TP: 57	FP: 5	FN: 24
+My calculated precision: 0.9193548387096774
+My calculated recall: 0.7037037037037037
+My F1 score: 0.7972027972027971
+******************************************************
+File name: AB_probably_openimages_pb.weights
+threshold: 0.01
+
+AB calculated precision: 0.63
+AB calculated recall: 0.98
+AB calculated avg_IoU: 50.89
+AB calculated mAP: 0.948268
+AB calculate F1-score: 0.76
+
+Truth: 81 detections
+TP: 79	FP: 47	FN: 2
+My calculated precision: 0.626984126984127
+My calculated recall: 0.9753086419753086
+My F1 score: 0.7632850241545894
+******************************************************
+File name: AB_probably_openimages_pb.weights
+threshold: 0.25
+
+AB calculated precision: 0.89
+AB calculated recall: 0.96
+AB calculated avg_IoU: 72.27
+AB calculated mAP: 0.948268
+AB calculate F1-score: 0.92
+
+Truth: 81 detections
+TP: 78	FP: 10	FN: 3
+My calculated precision: 0.8863636363636364
+My calculated recall: 0.9629629629629629
+My F1 score: 0.923076923076923
+******************************************************
+File name: AB_probably_openimages_pb.weights
+threshold: 0.50
+
+AB calculated precision: 0.93
+AB calculated recall: 0.95
+AB calculated avg_IoU: 75.79
+AB calculated mAP: 0.948268
+AB calculate F1-score: 0.94
+
+Truth: 81 detections
+TP: 77	FP: 6	FN: 4
+My calculated precision: 0.927710843373494
+My calculated recall: 0.9506172839506173
+My F1 score: 0.9390243902439024
+******************************************************
+File name: AB_probably_openimages_pb.weights
+threshold: 0.60
+
+AB calculated precision: 0.93
+AB calculated recall: 0.95
+AB calculated avg_IoU: 75.79
+AB calculated mAP: 0.948268
+AB calculate F1-score: 0.94
+
+Truth: 81 detections
+TP: 77	FP: 6	FN: 4
+My calculated precision: 0.927710843373494
+My calculated recall: 0.9506172839506173
+My F1 score: 0.9390243902439024
+******************************************************
+File name: AB_probably_openimages_pb.weights
+threshold: 0.75
+
+AB calculated precision: 0.95
+AB calculated recall: 0.89
+AB calculated avg_IoU: 77.83
+AB calculated mAP: 0.948268
+AB calculate F1-score: 0.92
+
+Truth: 81 detections
+TP: 72	FP: 4	FN: 9
+My calculated precision: 0.9473684210526315
+My calculated recall: 0.8888888888888888
+My F1 score: 0.9171974522292994
+******************************************************
+File name: clean_oi.weights
+threshold: 0.01
+
+AB calculated precision: 0.79
+AB calculated recall: 0.98
+AB calculated avg_IoU: 61.04
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.87
+
+Truth: 81 detections
+TP: 79	FP: 21	FN: 2
+My calculated precision: 0.79
+My calculated recall: 0.9753086419753086
+My F1 score: 0.8729281767955802
+******************************************************
+File name: clean_oi.weights
+threshold: 0.25
+
+AB calculated precision: 0.90
+AB calculated recall: 0.91
+AB calculated avg_IoU: 70.11
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.91
+
+Truth: 81 detections
+TP: 74	FP: 8	FN: 7
+My calculated precision: 0.9024390243902439
+My calculated recall: 0.9135802469135802
+My F1 score: 0.9079754601226994
+******************************************************
+File name: clean_oi.weights
+threshold: 0.50
+
+AB calculated precision: 0.93
+AB calculated recall: 0.86
+AB calculated avg_IoU: 72.96
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.90
+
+Truth: 81 detections
+TP: 70	FP: 5	FN: 11
+My calculated precision: 0.9333333333333333
+My calculated recall: 0.8641975308641975
+My F1 score: 0.8974358974358974
+******************************************************
+File name: clean_oi.weights
+threshold: 0.60
+
+AB calculated precision: 0.93
+AB calculated recall: 0.80
+AB calculated avg_IoU: 73.11
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.86
+
+Truth: 81 detections
+TP: 65	FP: 5	FN: 16
+My calculated precision: 0.9285714285714286
+My calculated recall: 0.8024691358024691
+My F1 score: 0.8609271523178809
+******************************************************
+File name: clean_oi.weights
+threshold: 0.75
+
+AB calculated precision: 0.92
+AB calculated recall: 0.70
+AB calculated avg_IoU: 73.49
+AB calculated mAP: 0.926602
+AB calculate F1-score: 0.80
+
+Truth: 81 detections
+TP: 57	FP: 5	FN: 24
+My calculated precision: 0.9193548387096774
+My calculated recall: 0.7037037037037037
+My F1 score: 0.7972027972027971
+******************************************************

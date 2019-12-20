@@ -1,0 +1,25 @@
+XVID
+- doesn't work in quicktime
+- works with video play, but 
+    "illegal dc vlc, 
+    error in MB ___" 
+    will show up near the end of the video and cut it short
+
+MPEG
+- doesn't work in quicktime
+- works with video play, but 
+    "ac-tex damaged at ___
+    Warning MVs not available"
+    will show up and cut video short
+
+MJPG && MP4V
+- doesn't work in quicktime
+- doesn't work with video play: "moov atom not found"
+
+M J P G
+- works in quicktime
+- works with video play. At the end of the video it says 
+    "overread _"
+    but normally finishes out the video
+
+

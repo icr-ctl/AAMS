@@ -8,3 +8,8 @@
 *.tar.gz
 *.tar
 *.config
+darknet_rt/AB_darknet/
+*.weights
+*.cfg
+*.data
+*.names

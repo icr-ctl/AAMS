@@ -2,6 +2,20 @@ import os
 import threading
 import time
 
+# Imports for email alert
+from datetime import datetime
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+s.starttls()
+s.login("cheetahchin.sdzg@gmail.com", "windowlicker")
+msg = MIMEMultipart()
+msg['From']="cheetahchin.sdzg@gmail.com"
+msg['To']="vivianhshen@gmail.com"
+msg['Subject']="Giraffe spotted! [EOM]"
+
 # Imports for lora
 import subprocess
 import busio
@@ -75,10 +89,12 @@ def append_objs_to_img(cv2_im, objs, labels):
 def detection():
     global obj_ids
     global confs
+    emailtime = 0
+    savepictime = 0
     # Initialize Coral Engine
     modelfile = 'models/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite'
     labelfile = 'models/coco_labels.txt'
-    thresh = 0.4
+    thresh = 0.0
     topk = 40
 
     print("[INFO] loading labels & engine...")
@@ -101,15 +117,14 @@ def detection():
         # non-maximum suppression from opencv's DNN module
         bboxes = []
         scores = []
-        score_thresh = 0.4
-        nms_threshold = 0.5
+        score_thresh = 0.0
+        nms_threshold = 0.6
         for obj in objs:
             bboxes.append(obj.bounding_box.flatten().tolist())
             scores.append(float(obj.score))
         indices = cv2.dnn.NMSBoxes(bboxes, scores, score_thresh,
                 nms_threshold)
 
-        print("num objects: " + str(len(objs)) + " and num left: " + str(len(indices)))
         leng = len(indices)
         if leng > 5:
             leng = 5
@@ -118,13 +133,26 @@ def detection():
             label = labels[objs[idx].label_id]
             obj_ids[i] = objs[idx].label_id
             confs[i] = int(100*objs[idx].score)
+            if label == "giraffe" and confs[i] > 75:
+                print("CONFIDENCE BABY: ", confs[i])
+                if time.time() - emailtime > 300:
+                    s.send_message(msg)
+                    emailtime = time.time()
+                    datetim = datetime.now().strftime("%H:%M:%S_%b-%d")
+                    cv2.imwrite("snapshots/" + datetim + "_giraffe.jpg", cv2_im)
+            elif confs[i] > 80:
+                if time.time() - savepictime > 30:
+                    datetim = datetime.now().strftime("%H:%M:%S_%b-%d")
+                    cv2.imwrite("snapshots/" + datetim + "_" + label + ".jpg", cv2_im)
+                    savepictime = time.time()
+
             print(label + ": " + str(confs[i]))
 
-        cv2_im = append_objs_to_img(cv2_im, objs, labels)
         # drawing for debugging
-        cv2.imshow('frame', cv2_im)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-           break
+        # cv2_im = append_objs_to_img(cv2_im, objs, labels)
+        # cv2.imshow('frame', cv2_im)
+        # if cv2.waitKey(1) & 0xFF == ord('q'):
+        #    break
 
 def send_pi_data(obj_ids, confs, pktnum, thousands):
     # Create data packet

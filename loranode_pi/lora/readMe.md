@@ -26,3 +26,9 @@ Important files:
 	- thread_detect_periodic.py: realtime detection w/ coral.
 	utilizes multithreading. periodically sends data over lora
 
+	- full.py: does the same thing as ^thread_detect_periodic.py. 
+	HOWEVER, sends an email when giraffe detected with conf > 75%,
+	up to 1 email every 5 minutes. 
+	Also, saves a local snapshot of the instant anything is detected
+	w/ conf > 75%, up to 1 every 5 minutes.
+

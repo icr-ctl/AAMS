@@ -47,9 +47,10 @@ class S(BaseHTTPRequestHandler):
             self.wfile.write(b'')
             self.wfile.write(b'<h3>Current packet number: %d</h3>' % (pktnum+thous))
             self.wfile.write(b'')
+            self.wfile.write(b'What we\'ve seen so far:')
             self.wfile.write(b'<table align="center" style="width:50%"><tr><th>Class Name</th><th>Instances</th></tr>')
-            for k,v in seenall:
-                self.wfile.write(b'<tr><td>%b</td><td>%d</td></tr>' % (bytes(k, "utf-8"), v))
+            for k in seenall:
+                self.wfile.write(b'<tr><td>%b</td><td>%d</td></tr>' % (bytes(k, "utf-8"), int(seenall[k])))
             self.wfile.write(b'</table>')
             self.wfile.write(b'<div class="row">')
             highconf = []
@@ -57,20 +58,17 @@ class S(BaseHTTPRequestHandler):
             for i in range(len(classids)):
                 if confs[i] > 40:
                     highconf.append(i)
+                    print(labels[classids[i]])
+                    print(confs[i])
                 else:
                     other.append(i)
-            self.wfile.write(b'<div style="float:left;width:50%;"><h2>Seen with high confidence</h2>')
+            self.wfile.write(b'<div style="float:left;width:50%;"><h2 style="text-decoration:underline;">Seen with high confidence</h2>')
             for i in highconf:
-                classname = labels[classids[i]]
-                if classname in seenall:
-                    seenall[classname] += 1
-                else:
-                    seenall[classname] = 1
-                self.wfile.write(b'<h4>%b: %d</h4>\%' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
+                self.wfile.write(b'<h4>%b: %d %%</h4>' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
             self.wfile.write(b'</div>')
-            self.wfile.write(b'<div style="float:left;width:50%"><h2>Seen with low confidence</h2>')
+            self.wfile.write(b'<div style="float:left;width:50%"><h2 style="text-decoration:underline;">Seen with low confidence</h2>')
             for i in other:
-                self.wfile.write(b'<h4>%b: %d</h4>\%' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
+                self.wfile.write(b'<h4>%b: %d %%</h4>' % (bytes(labels[classids[i]], "utf-8"), confs[i]))
             self.wfile.write(b'</div></div>')
             self.wfile.write(b'</body></html>')
 
@@ -89,6 +87,14 @@ class S(BaseHTTPRequestHandler):
         js = json.loads(post_data)
         classids = js["object"]["Object_IDs"]
         confs = js["object"]["Confidences"]
+        for i in range(len(confs)):
+            if confs[i] > 40:
+                classname = labels[classids[i]]
+                if classname in seenall:
+                    seenall[classname] += 1
+                else:
+                    seenall[classname] = 1
+
         pktnum = js["object"]["Packet_Number"]
         thous = js["object"]["Thousands"]
         print("Recieved data!")
