@@ -23,15 +23,17 @@ Tried 3 different approaches (none worked so far) to create TFLite file:
             - If you have a lot of image files, it will create multiple train and val records. When you train, instead of passing in a single .record file, you can try using the TensorFlow Dataset option to pass in multiple files. (I didn't have time to try this)
         - As of mid 2019, TF was updated to 2.0, and train.py was put in the legacy folder. Unfortunately, this means a whole chain of dependencies was broken, like how you need to downgrade TF, CUDA, and cudNN for train.py to work. Also unfortunately, there are no tutorials on the new way of training (model_main.py). 
         - After prepping all the data and everything, I just couldn't seem to get it to train. I was fiddling around with versions for tf/cuda/cudNN, but I just got a lot of errors, different for each version combination.
+    * Tensorflow is not currently compatible with Python3.7+. Please use Python3.6 or below.
 
 3. Creating a PyTorch model
+
+    * This tutorial for creating a [detectron2 model](https://gilberttanner.com/blog/detectron-2-object-detection-with-pytorch).
+        - here's some [pre-existing models](https://modelzoo.co/model/detectron-models-for-object-detection)
 
 
 Other files:
 
     * All the #\_liteconvert.py files are different ways to convert tensorflow to tflite that I found online. Mostly based on the python API, some for tf1, some for tf2.
 
-Notes:
 
-    * Tensorflow is not currently compatible with Python3.7+. Please use Python3.6 or below.
 
